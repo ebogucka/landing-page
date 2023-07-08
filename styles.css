@@ -4,6 +4,7 @@ body {
   margin: auto;
   justify-content: center;
   max-width: 1600px;
+  flex-direction: column;
 }
 
 .header {
@@ -56,8 +57,7 @@ body {
   color: #e5e7eb;
 }
 
-.header-image {
-}
+.header-image {}
 
 button {
   max-width: fit-content;

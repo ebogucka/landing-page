@@ -67,6 +67,9 @@ button {
   border-radius: 6px;
   border: 1px solid #057fd0;
   padding: 6px 24px;
+}
+
+.hero-button {
   margin-top: 20px;
 }
 
@@ -83,7 +86,7 @@ button {
 
 .images {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .image {
@@ -116,4 +119,41 @@ button {
   text-align: right;
   font-size: 30px;
   font-weight: bold;
+}
+
+.call-to-action {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.call {
+  background-color: #3882f6;
+  flex-basis: 1000px;
+  border-radius: 5px;
+  color: #f9f2f8;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 0;
+}
+
+.call-header {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.call-header {
+  font-size: 20px;
+}
+
+.call-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.call-to-action-button {
+  border-color: #f9f2f8;
+  margin: 0;
 }

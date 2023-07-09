@@ -57,8 +57,6 @@ body {
   color: #e5e7eb;
 }
 
-.header-image {}
-
 button {
   max-width: fit-content;
   background-color: #3882f6;
@@ -69,4 +67,52 @@ button {
   border: 1px solid #057fd0;
   padding: 6px 24px;
   margin-top: 20px;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.gallery-header {
+  padding: 50px 0 20px 0;
+  font-size: 40px;
+}
+
+.images {
+  display: flex;
+  justify-content: space-between;
+}
+
+.image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  word-wrap: normal;
+  flex-basis: 250px;
+}
+
+.gallery-image {
+  border-radius: 25px;
+  border: 5px solid #3882f6;
+}
+
+.image-description {
+  text-align: center;
+}
+
+.quote {
+  background-color: #e5e7eb;
+  padding: 50px;
+  margin: 50px 0;
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+}
+
+.quote-subtext {
+  text-align: right;
+  font-size: 30px;
+  font-weight: bold;    
 }
